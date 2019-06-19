@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0F00EFF7B1FF4E0393DF7AF7 /* ofstd-test-exhaustive */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 49623F05F2BF4F4F9EBD5499 /* Build configuration list for PBXAggregateTarget "ofstd-test-exhaustive" */;
+			buildPhases = (
+				FE18BE45DA414E6183E3E791 /* CMake Rules */,
+			);
+			dependencies = (
+				23B8C8ED2BCB49BEBA7EB1FA /* PBXTargetDependency */,
+			);
+			name = "ofstd-test-exhaustive";
+			productName = "ofstd-test-exhaustive";
+		};
+		7746F632EC764DB0BFB163E6 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 314E91177F7E4F4BBFBDE63B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				B1BAD350F6D44364A4264E4F /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		9F7E49AD9CD64F6E859A36FA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4EA7E37CDD8746C7B5D1D6E1 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				6085E7773AE74E6CBF69E36E /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4513A6FE14654D5FA1628037 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		C248E8BBAF014EE7B5845012 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 63B485ED6B814CB8A73DAEEE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				DCA8EA44B5D94FE7AB38057F /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E945B71DAFBD45588F46137B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2FEC3E862486453D8DE7B8FB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				25BF3889286346E18ECE3A0D /* CMake Rules */,
+			);
+			dependencies = (
+				E6FB55BEFEDD4E658F3B1F94 /* PBXTargetDependency */,
+				72A9EA2ED40149BB8256F56A /* PBXTargetDependency */,
+				EB14E24E07044F6EA47EBAE0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00943CDBEDA8496BB7573038 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/terror.cc */ = {isa = PBXBuildFile; fileRef = 492D9BE0360848B5A9205913 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/terror.cc */; };
+		053077213EB94E5C93E8F60E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tthread.cc */ = {isa = PBXBuildFile; fileRef = EB6D6E1C45B54403B109FE57 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tthread.cc */; };
+		072FA74623B748E4A19097D3 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftempf.cc */ = {isa = PBXBuildFile; fileRef = EB587B2248B242C0B0803C58 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftempf.cc */; };
+		1A897715BDB04D3BB259600E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofmath.cc */ = {isa = PBXBuildFile; fileRef = 49FDAAC3398D46D09DC9CACF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofmath.cc */; };
+		1FD7200CB26E44C5AF1DE78F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tfilsys.cc */ = {isa = PBXBuildFile; fileRef = 5990CD40065E4265A583341D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tfilsys.cc */; };
+		2455198E6132409481CD7F1F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tlimits.cc */ = {isa = PBXBuildFile; fileRef = 24392F5D53BF46EA87E2B1D7 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tlimits.cc */; };
+		28E7E695BB0A496298004262 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofstd.cc */ = {isa = PBXBuildFile; fileRef = 1AC997543DCE4DB5A224A407 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofstd.cc */; };
+		2A6D3BD226D94048928DA04F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofdatime.cc */ = {isa = PBXBuildFile; fileRef = CAC8411BF3B948AE8E26E510 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofdatime.cc */; };
+		2C7530C347604A8C8A7128AB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tvariant.cc */ = {isa = PBXBuildFile; fileRef = 486A7993B0CB424685956263 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tvariant.cc */; };
+		3035090F72D24C28861C0300 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offname.cc */ = {isa = PBXBuildFile; fileRef = 98D6A887CF164D4F94B54577 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offname.cc */; };
+		34F934E3213C491B88736A57 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oflist.cc */ = {isa = PBXBuildFile; fileRef = C9A89954F36F490DBE0CAB94 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oflist.cc */; };
+		358E74DEB3A646F1AC770987 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcond.cc */ = {isa = PBXBuildFile; fileRef = 6EAEB9950AF949F9BCAA4CB6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcond.cc */; };
+		3B6055DC450A478D8E2A5E61 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/ttuple.cc */ = {isa = PBXBuildFile; fileRef = EE255866644E45C4A421D349 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/ttuple.cc */; };
+		514D3B5F08BB4B68B8DACAF4 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofsockad.cc */ = {isa = PBXBuildFile; fileRef = 773ECB338312408AB402BF3E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofsockad.cc */; };
+		53F2B797DB3441049B609BCE /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oferror.cc */ = {isa = PBXBuildFile; fileRef = 72281D1FC5524574B3312482 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oferror.cc */; };
+		564BFB78CF7141508B0EE0B9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmem.cc */ = {isa = PBXBuildFile; fileRef = 92D794A0E39C4BDC899027E5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmem.cc */; };
+		5CF893D1385940B6BE077C39 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tstack.cc */ = {isa = PBXBuildFile; fileRef = 822001C0A90C495794FC7CC6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tstack.cc */; };
+		639E9B1951F04A5987ED3444 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tests.cc */ = {isa = PBXBuildFile; fileRef = AF12C3C207244D4680B9DDCB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tests.cc */; };
+		688D5F2E8F6F436CAA0D88B8 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 947ED2E7BCB34337BC4F4F7D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/CMakeLists.txt */; };
+		695D0D07CCC1434DBFC09211 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftime.cc */ = {isa = PBXBuildFile; fileRef = 8B6748C2168143B6ADBB07CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftime.cc */; };
+		6A6DB6E7E75D4435A1E9D178 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcmdln.cc */ = {isa = PBXBuildFile; fileRef = 1D85DBE212AF475FA43B02C0 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcmdln.cc */; };
+		6AD7195373144E43A07EF6F4 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconsol.cc */ = {isa = PBXBuildFile; fileRef = AAC8DFCB6F04431E8C45CD69 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconsol.cc */; };
+		6ECFDD8AAD5340B99BD0D557 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DA98D7BDF55545D28EEF1137 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/CMakeLists.txt */; };
+		81540FCE2EBE4EF19F7CC80F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tofdatim.cc */ = {isa = PBXBuildFile; fileRef = 035D37C50DF24A7CA3A8168D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tofdatim.cc */; };
+		88D8DE2C2857452A9BAAA4D6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/txml.cc */ = {isa = PBXBuildFile; fileRef = 2F7999FB1EFD437D88063856 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/txml.cc */; };
+		8952E1D46ABD4FAD93B457AB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofxml.cc */ = {isa = PBXBuildFile; fileRef = CECDA035597E49D0A435F2D7 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofxml.cc */; };
+		8FD74486CDF545BE87355D37 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tchrenc.cc */ = {isa = PBXBuildFile; fileRef = 395915CC91CC4B1CBC18E489 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tchrenc.cc */; };
+		9A29E5DA8B774DC7ADA025CC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmap.cc */ = {isa = PBXBuildFile; fileRef = 55DF328901D744BDA653D93E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmap.cc */; };
+		9CD692CAAA37495E97FB36CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/toffile.cc */ = {isa = PBXBuildFile; fileRef = D096C4E50A314C6BB14B3085 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/toffile.cc */; };
+		AA9F3B726EF749EAB94E7E49 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tuuid.cc */ = {isa = PBXBuildFile; fileRef = 94E526D662DF40CF80BF1454 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tuuid.cc */; };
+		B58131DF2A2143CD84D2C1FC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofchrenc.cc */ = {isa = PBXBuildFile; fileRef = 197439F43EF245ECB46AA8CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofchrenc.cc */; };
+		BB9E8A91BD894BBBAB0CC6D0 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofstring.cc */ = {isa = PBXBuildFile; fileRef = B81BBC26C37E40D7A17A97F6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofstring.cc */; };
+		BD1B233A7BB04184A8867180 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tbase64.cc */ = {isa = PBXBuildFile; fileRef = 850208FE3F624377BA148A19 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tbase64.cc */; };
+		C4616C19D4574BBBAF70878C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofthread.cc */ = {isa = PBXBuildFile; fileRef = 6D56104DBAD84383BCC6EAA1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofthread.cc */; };
+		C81F807B49284FC2BE14F219 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tatof.cc */ = {isa = PBXBuildFile; fileRef = 54F9A21E5B7B4FC2A6CF045B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tatof.cc */; };
+		D088FB78ECA04D42B8AD585D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offile.cc */ = {isa = PBXBuildFile; fileRef = F06CFA09EB0740F1857F2AC4 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offile.cc */; };
+		D3C74A00761F4764B6884D0E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tofstd.cc */ = {isa = PBXBuildFile; fileRef = 57C461800408435E87A17E4F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tofstd.cc */; };
+		D6DB350640EF46378A74AA16 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tvec.cc */ = {isa = PBXBuildFile; fileRef = 07F0CF27929E4539BA7E8BF2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tvec.cc */; };
+		DA44FAC9F2A14030BEB81583 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconapp.cc */ = {isa = PBXBuildFile; fileRef = 569D1008A0CE4A679A50C4EE /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconapp.cc */; };
+		DE4060948564420F83FE43B5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offilsys.cc */ = {isa = PBXBuildFile; fileRef = 5C1219B01E864F76A2B4BE3C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offilsys.cc */; };
+		E45D4EAF26634D748C41FE97 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tlist.cc */ = {isa = PBXBuildFile; fileRef = EBCC6E1FE7BB4743A5A7D792 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tlist.cc */; };
+		EF439A29FED54ADDA0D3490B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/toption.cc */ = {isa = PBXBuildFile; fileRef = 91A7E5B558794CF284A5D037 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/toption.cc */; };
+		F47ABA8DE04B4FA1A0F5565B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcrc32.cc */ = {isa = PBXBuildFile; fileRef = 61E01AF859814F988EA1F768 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcrc32.cc */; };
+		F4E14A8224C245D39AAD40E1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconfig.cc */ = {isa = PBXBuildFile; fileRef = E569FAA47E844BE0AC150823 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconfig.cc */; };
+		F683E0D38B6A4FC1A6479586 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmarkup.cc */ = {isa = PBXBuildFile; fileRef = 2BAAFBF2857542B2A9176EED /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmarkup.cc */; };
+		F6EA887591844A69A672C59F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofuuid.cc */ = {isa = PBXBuildFile; fileRef = E0342A06590F4976A0BED53A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofuuid.cc */; };
+		F76E76FD1F6848FB8A1C27C8 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofrand.cc */ = {isa = PBXBuildFile; fileRef = 4D2D856E5E8B4FC89B9789A9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofrand.cc */; };
+		FAAED763440B4986BBE251B2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofdate.cc */ = {isa = PBXBuildFile; fileRef = 9E93FC86CAF244F3AF987683 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofdate.cc */; };
+		FADE185010C84EBBA61C1704 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftimer.cc */ = {isa = PBXBuildFile; fileRef = 9085949EB95B41789F732DFC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftimer.cc */; };
+		FC92294B49AA4C08859993EC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tstring.cc */ = {isa = PBXBuildFile; fileRef = BB429DDDDF16450CB16690A0 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tstring.cc */; };
+		FE84A0FF000C4BA584DE65BC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tftoa.cc */ = {isa = PBXBuildFile; fileRef = B34FCEE5BB8349588DC75E1C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tftoa.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		7FC564A8023144A39ECE5EA0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		05A1FDF53A3E4D5FAC03AF7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A0EB417100435C870454EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EAADB9868514CA2B928241B;
+			remoteInfo = ofstd_tests;
+		};
+		1FE3730E9FDB4E73908B4058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A0EB417100435C870454EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C248E8BBAF014EE7B5845012;
+			remoteInfo = ZERO_CHECK;
+		};
+		21C6337E0D4040B387927A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A0EB417100435C870454EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C248E8BBAF014EE7B5845012;
+			remoteInfo = ZERO_CHECK;
+		};
+		3E963FDF31444ADBA75C27E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A0EB417100435C870454EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B862A0BDCBC94B69866A96C8;
+			remoteInfo = ofstd;
+		};
+		8E90A8E1429946CDAFA20630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A0EB417100435C870454EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C248E8BBAF014EE7B5845012;
+			remoteInfo = ZERO_CHECK;
+		};
+		9A3CBF744F6943218208D48A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A0EB417100435C870454EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B862A0BDCBC94B69866A96C8;
+			remoteInfo = ofstd;
+		};
+		B7B7DA56F9E04982987FADCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A0EB417100435C870454EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C248E8BBAF014EE7B5845012;
+			remoteInfo = ZERO_CHECK;
+		};
+		E0F2E9E5EE504331B0537236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A0EB417100435C870454EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E945B71DAFBD45588F46137B;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035D37C50DF24A7CA3A8168D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tofdatim.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tofdatim.cc; path = tests/tofdatim.cc; sourceTree = SOURCE_ROOT; };
+		071236909EEE43C18247022F /* ofstd */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libofstd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F0CF27929E4539BA7E8BF2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tvec.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tvec.cc; path = tests/tvec.cc; sourceTree = SOURCE_ROOT; };
+		197439F43EF245ECB46AA8CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofchrenc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofchrenc.cc; path = libsrc/ofchrenc.cc; sourceTree = SOURCE_ROOT; };
+		1AC997543DCE4DB5A224A407 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofstd.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofstd.cc; path = libsrc/ofstd.cc; sourceTree = SOURCE_ROOT; };
+		1D85DBE212AF475FA43B02C0 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcmdln.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofcmdln.cc; path = libsrc/ofcmdln.cc; sourceTree = SOURCE_ROOT; };
+		24392F5D53BF46EA87E2B1D7 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tlimits.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tlimits.cc; path = tests/tlimits.cc; sourceTree = SOURCE_ROOT; };
+		2BAAFBF2857542B2A9176EED /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmarkup.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tmarkup.cc; path = tests/tmarkup.cc; sourceTree = SOURCE_ROOT; };
+		2F7999FB1EFD437D88063856 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/txml.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = txml.cc; path = tests/txml.cc; sourceTree = SOURCE_ROOT; };
+		395915CC91CC4B1CBC18E489 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tchrenc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tchrenc.cc; path = tests/tchrenc.cc; sourceTree = SOURCE_ROOT; };
+		486A7993B0CB424685956263 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tvariant.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tvariant.cc; path = tests/tvariant.cc; sourceTree = SOURCE_ROOT; };
+		492D9BE0360848B5A9205913 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/terror.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = terror.cc; path = tests/terror.cc; sourceTree = SOURCE_ROOT; };
+		49FDAAC3398D46D09DC9CACF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofmath.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofmath.cc; path = libsrc/ofmath.cc; sourceTree = SOURCE_ROOT; };
+		4D2D856E5E8B4FC89B9789A9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofrand.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofrand.cc; path = libsrc/ofrand.cc; sourceTree = SOURCE_ROOT; };
+		54F9A21E5B7B4FC2A6CF045B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tatof.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tatof.cc; path = tests/tatof.cc; sourceTree = SOURCE_ROOT; };
+		55DF328901D744BDA653D93E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmap.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tmap.cc; path = tests/tmap.cc; sourceTree = SOURCE_ROOT; };
+		569D1008A0CE4A679A50C4EE /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconapp.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofconapp.cc; path = libsrc/ofconapp.cc; sourceTree = SOURCE_ROOT; };
+		57C461800408435E87A17E4F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tofstd.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tofstd.cc; path = tests/tofstd.cc; sourceTree = SOURCE_ROOT; };
+		5990CD40065E4265A583341D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tfilsys.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tfilsys.cc; path = tests/tfilsys.cc; sourceTree = SOURCE_ROOT; };
+		5C1219B01E864F76A2B4BE3C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offilsys.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = offilsys.cc; path = libsrc/offilsys.cc; sourceTree = SOURCE_ROOT; };
+		61E01AF859814F988EA1F768 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcrc32.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofcrc32.cc; path = libsrc/ofcrc32.cc; sourceTree = SOURCE_ROOT; };
+		6232F87DB81B4ABDA3C9CB09 /* ofstd_tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ofstd_tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2673DD4B9940398AE51CBB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6D56104DBAD84383BCC6EAA1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofthread.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofthread.cc; path = libsrc/ofthread.cc; sourceTree = SOURCE_ROOT; };
+		6EAEB9950AF949F9BCAA4CB6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcond.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofcond.cc; path = libsrc/ofcond.cc; sourceTree = SOURCE_ROOT; };
+		72281D1FC5524574B3312482 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oferror.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = oferror.cc; path = libsrc/oferror.cc; sourceTree = SOURCE_ROOT; };
+		773ECB338312408AB402BF3E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofsockad.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofsockad.cc; path = libsrc/ofsockad.cc; sourceTree = SOURCE_ROOT; };
+		822001C0A90C495794FC7CC6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tstack.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tstack.cc; path = tests/tstack.cc; sourceTree = SOURCE_ROOT; };
+		850208FE3F624377BA148A19 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tbase64.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tbase64.cc; path = tests/tbase64.cc; sourceTree = SOURCE_ROOT; };
+		8B6748C2168143B6ADBB07CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftime.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = oftime.cc; path = libsrc/oftime.cc; sourceTree = SOURCE_ROOT; };
+		9085949EB95B41789F732DFC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftimer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = oftimer.cc; path = libsrc/oftimer.cc; sourceTree = SOURCE_ROOT; };
+		91A7E5B558794CF284A5D037 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/toption.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = toption.cc; path = tests/toption.cc; sourceTree = SOURCE_ROOT; };
+		92D794A0E39C4BDC899027E5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmem.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tmem.cc; path = tests/tmem.cc; sourceTree = SOURCE_ROOT; };
+		947ED2E7BCB34337BC4F4F7D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = libsrc/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		94E526D662DF40CF80BF1454 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tuuid.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tuuid.cc; path = tests/tuuid.cc; sourceTree = SOURCE_ROOT; };
+		98D6A887CF164D4F94B54577 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offname.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = offname.cc; path = libsrc/offname.cc; sourceTree = SOURCE_ROOT; };
+		9E93FC86CAF244F3AF987683 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofdate.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofdate.cc; path = libsrc/ofdate.cc; sourceTree = SOURCE_ROOT; };
+		AAC8DFCB6F04431E8C45CD69 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconsol.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofconsol.cc; path = libsrc/ofconsol.cc; sourceTree = SOURCE_ROOT; };
+		ACB429FB883342FEA2FF6ACF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AF12C3C207244D4680B9DDCB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tests.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tests.cc; path = tests/tests.cc; sourceTree = SOURCE_ROOT; };
+		B34FCEE5BB8349588DC75E1C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tftoa.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tftoa.cc; path = tests/tftoa.cc; sourceTree = SOURCE_ROOT; };
+		B81BBC26C37E40D7A17A97F6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofstring.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofstring.cc; path = libsrc/ofstring.cc; sourceTree = SOURCE_ROOT; };
+		BB429DDDDF16450CB16690A0 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tstring.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tstring.cc; path = tests/tstring.cc; sourceTree = SOURCE_ROOT; };
+		C9A89954F36F490DBE0CAB94 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oflist.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = oflist.cc; path = libsrc/oflist.cc; sourceTree = SOURCE_ROOT; };
+		CAC8411BF3B948AE8E26E510 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofdatime.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofdatime.cc; path = libsrc/ofdatime.cc; sourceTree = SOURCE_ROOT; };
+		CECDA035597E49D0A435F2D7 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofxml.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxml.cc; path = libsrc/ofxml.cc; sourceTree = SOURCE_ROOT; };
+		D096C4E50A314C6BB14B3085 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/toffile.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = toffile.cc; path = tests/toffile.cc; sourceTree = SOURCE_ROOT; };
+		DA98D7BDF55545D28EEF1137 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E0342A06590F4976A0BED53A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofuuid.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofuuid.cc; path = libsrc/ofuuid.cc; sourceTree = SOURCE_ROOT; };
+		E569FAA47E844BE0AC150823 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconfig.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofconfig.cc; path = libsrc/ofconfig.cc; sourceTree = SOURCE_ROOT; };
+		EB587B2248B242C0B0803C58 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftempf.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = oftempf.cc; path = libsrc/oftempf.cc; sourceTree = SOURCE_ROOT; };
+		EB6D6E1C45B54403B109FE57 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tthread.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tthread.cc; path = tests/tthread.cc; sourceTree = SOURCE_ROOT; };
+		EBCC6E1FE7BB4743A5A7D792 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tlist.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tlist.cc; path = tests/tlist.cc; sourceTree = SOURCE_ROOT; };
+		EE255866644E45C4A421D349 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/ttuple.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ttuple.cc; path = tests/ttuple.cc; sourceTree = SOURCE_ROOT; };
+		F06CFA09EB0740F1857F2AC4 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offile.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = offile.cc; path = libsrc/offile.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0029B1BF87E14D6FB350D20B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				54F9A21E5B7B4FC2A6CF045B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tatof.cc */,
+				850208FE3F624377BA148A19 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tbase64.cc */,
+				395915CC91CC4B1CBC18E489 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tchrenc.cc */,
+				492D9BE0360848B5A9205913 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/terror.cc */,
+				AF12C3C207244D4680B9DDCB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tests.cc */,
+				5990CD40065E4265A583341D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tfilsys.cc */,
+				B34FCEE5BB8349588DC75E1C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tftoa.cc */,
+				24392F5D53BF46EA87E2B1D7 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tlimits.cc */,
+				EBCC6E1FE7BB4743A5A7D792 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tlist.cc */,
+				55DF328901D744BDA653D93E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmap.cc */,
+				2BAAFBF2857542B2A9176EED /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmarkup.cc */,
+				92D794A0E39C4BDC899027E5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmem.cc */,
+				035D37C50DF24A7CA3A8168D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tofdatim.cc */,
+				D096C4E50A314C6BB14B3085 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/toffile.cc */,
+				57C461800408435E87A17E4F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tofstd.cc */,
+				91A7E5B558794CF284A5D037 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/toption.cc */,
+				822001C0A90C495794FC7CC6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tstack.cc */,
+				BB429DDDDF16450CB16690A0 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tstring.cc */,
+				EB6D6E1C45B54403B109FE57 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tthread.cc */,
+				EE255866644E45C4A421D349 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/ttuple.cc */,
+				94E526D662DF40CF80BF1454 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tuuid.cc */,
+				486A7993B0CB424685956263 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tvariant.cc */,
+				07F0CF27929E4539BA7E8BF2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tvec.cc */,
+				2F7999FB1EFD437D88063856 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/txml.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		163854BDDE2149C1A2AB43CF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		37CAC54C1A774C2C9981C5D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071236909EEE43C18247022F /* ofstd */,
+				6232F87DB81B4ABDA3C9CB09 /* ofstd_tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1A581501CA46308D09BEFD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				197439F43EF245ECB46AA8CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofchrenc.cc */,
+				1D85DBE212AF475FA43B02C0 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcmdln.cc */,
+				569D1008A0CE4A679A50C4EE /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconapp.cc */,
+				6EAEB9950AF949F9BCAA4CB6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcond.cc */,
+				E569FAA47E844BE0AC150823 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconfig.cc */,
+				AAC8DFCB6F04431E8C45CD69 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconsol.cc */,
+				61E01AF859814F988EA1F768 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcrc32.cc */,
+				9E93FC86CAF244F3AF987683 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofdate.cc */,
+				CAC8411BF3B948AE8E26E510 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofdatime.cc */,
+				72281D1FC5524574B3312482 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oferror.cc */,
+				F06CFA09EB0740F1857F2AC4 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offile.cc */,
+				5C1219B01E864F76A2B4BE3C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offilsys.cc */,
+				98D6A887CF164D4F94B54577 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offname.cc */,
+				C9A89954F36F490DBE0CAB94 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oflist.cc */,
+				49FDAAC3398D46D09DC9CACF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofmath.cc */,
+				4D2D856E5E8B4FC89B9789A9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofrand.cc */,
+				773ECB338312408AB402BF3E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofsockad.cc */,
+				1AC997543DCE4DB5A224A407 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofstd.cc */,
+				B81BBC26C37E40D7A17A97F6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofstring.cc */,
+				EB587B2248B242C0B0803C58 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftempf.cc */,
+				6D56104DBAD84383BCC6EAA1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofthread.cc */,
+				8B6748C2168143B6ADBB07CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftime.cc */,
+				9085949EB95B41789F732DFC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftimer.cc */,
+				E0342A06590F4976A0BED53A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofuuid.cc */,
+				CECDA035597E49D0A435F2D7 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofxml.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		53734FB4CA264445A57636BD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6BE1F85B6E244EC680083AB5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				163854BDDE2149C1A2AB43CF /* CMake Rules */,
+				6B2673DD4B9940398AE51CBB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8D2DD7DCA7674B838C79F451 /* ofstd */ = {
+			isa = PBXGroup;
+			children = (
+				3D1A581501CA46308D09BEFD /* Source Files */,
+				947ED2E7BCB34337BC4F4F7D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/CMakeLists.txt */,
+			);
+			name = ofstd;
+			sourceTree = "<group>";
+		};
+		9A485A2550A243DD8703FAD0 /* ofstd-test-exhaustive */ = {
+			isa = PBXGroup;
+			children = (
+				53734FB4CA264445A57636BD /* CMake Rules */,
+				ACB429FB883342FEA2FF6ACF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/CMakeLists.txt */,
+			);
+			name = "ofstd-test-exhaustive";
+			sourceTree = "<group>";
+		};
+		B8FF586A6B1F4795A02E4951 = {
+			isa = PBXGroup;
+			children = (
+				6BE1F85B6E244EC680083AB5 /* ALL_BUILD */,
+				8D2DD7DCA7674B838C79F451 /* ofstd */,
+				9A485A2550A243DD8703FAD0 /* ofstd-test-exhaustive */,
+				B914925CAA454695BFA70284 /* ofstd_tests */,
+				37CAC54C1A774C2C9981C5D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B914925CAA454695BFA70284 /* ofstd_tests */ = {
+			isa = PBXGroup;
+			children = (
+				0029B1BF87E14D6FB350D20B /* Source Files */,
+				DA98D7BDF55545D28EEF1137 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/CMakeLists.txt */,
+			);
+			name = ofstd_tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EAADB9868514CA2B928241B /* ofstd_tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7673BE1A1130419AB3D4D19E /* Build configuration list for PBXNativeTarget "ofstd_tests" */;
+			buildPhases = (
+				B185810555794539945A8850 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A70816A0F39C445DA9D4DABA /* PBXTargetDependency */,
+				3A94906C8FB6483882EA6C32 /* PBXTargetDependency */,
+			);
+			name = ofstd_tests;
+			productName = ofstd_tests;
+			productReference = 6232F87DB81B4ABDA3C9CB09 /* ofstd_tests */;
+			productType = "com.apple.product-type.tool";
+		};
+		B862A0BDCBC94B69866A96C8 /* ofstd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B488F70ABCDF4BCABDA98F16 /* Build configuration list for PBXNativeTarget "ofstd" */;
+			buildPhases = (
+				837A959DBA824014ABBE1566 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CD2973D70DB4206B57A2ADF /* PBXTargetDependency */,
+			);
+			name = ofstd;
+			productName = ofstd;
+			productReference = 071236909EEE43C18247022F /* ofstd */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82A0EB417100435C870454EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 81253CAE797E4A029554B11A /* Build configuration list for PBXProject "ofstd" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7FC564A8023144A39ECE5EA0 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B8FF586A6B1F4795A02E4951;
+			projectDirPath = ../../ofstd;
+			projectRoot = "";
+			targets = (
+				E945B71DAFBD45588F46137B /* ALL_BUILD */,
+				7746F632EC764DB0BFB163E6 /* RUN_TESTS */,
+				C248E8BBAF014EE7B5845012 /* ZERO_CHECK */,
+				9F7E49AD9CD64F6E859A36FA /* install */,
+				B862A0BDCBC94B69866A96C8 /* ofstd */,
+				0F00EFF7B1FF4E0393DF7AF7 /* ofstd-test-exhaustive */,
+				8EAADB9868514CA2B928241B /* ofstd_tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25BF3889286346E18ECE3A0D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd -f /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		29B6FE086E8F43FCB6632447 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6085E7773AE74E6CBF69E36E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd -f /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7A0EE3163F734972AEE33C7B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B1BAD350F6D44364A4264E4F /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd -f /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B762BC17C821494C8EA85322 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C50B63FD8F974A1A87D114E1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CD23FE66E5934F86A06CA8D0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DCA8EA44B5D94FE7AB38057F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd -f /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FE18BE45DA414E6183E3E791 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd/tests -f /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd/tests/CMakeScripts/ofstd-test-exhaustive_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837A959DBA824014ABBE1566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58131DF2A2143CD84D2C1FC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofchrenc.cc */,
+				6A6DB6E7E75D4435A1E9D178 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcmdln.cc */,
+				DA44FAC9F2A14030BEB81583 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconapp.cc */,
+				358E74DEB3A646F1AC770987 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcond.cc */,
+				F4E14A8224C245D39AAD40E1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconfig.cc */,
+				6AD7195373144E43A07EF6F4 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofconsol.cc */,
+				F47ABA8DE04B4FA1A0F5565B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofcrc32.cc */,
+				FAAED763440B4986BBE251B2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofdate.cc */,
+				2A6D3BD226D94048928DA04F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofdatime.cc */,
+				53F2B797DB3441049B609BCE /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oferror.cc */,
+				D088FB78ECA04D42B8AD585D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offile.cc */,
+				DE4060948564420F83FE43B5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offilsys.cc */,
+				3035090F72D24C28861C0300 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/offname.cc */,
+				34F934E3213C491B88736A57 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oflist.cc */,
+				1A897715BDB04D3BB259600E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofmath.cc */,
+				F76E76FD1F6848FB8A1C27C8 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofrand.cc */,
+				514D3B5F08BB4B68B8DACAF4 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofsockad.cc */,
+				28E7E695BB0A496298004262 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofstd.cc */,
+				BB9E8A91BD894BBBAB0CC6D0 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofstring.cc */,
+				072FA74623B748E4A19097D3 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftempf.cc */,
+				C4616C19D4574BBBAF70878C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofthread.cc */,
+				695D0D07CCC1434DBFC09211 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftime.cc */,
+				FADE185010C84EBBA61C1704 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/oftimer.cc */,
+				F6EA887591844A69A672C59F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofuuid.cc */,
+				8952E1D46ABD4FAD93B457AB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/libsrc/ofxml.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B185810555794539945A8850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81F807B49284FC2BE14F219 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tatof.cc */,
+				BD1B233A7BB04184A8867180 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tbase64.cc */,
+				8FD74486CDF545BE87355D37 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tchrenc.cc */,
+				00943CDBEDA8496BB7573038 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/terror.cc */,
+				639E9B1951F04A5987ED3444 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tests.cc */,
+				1FD7200CB26E44C5AF1DE78F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tfilsys.cc */,
+				FE84A0FF000C4BA584DE65BC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tftoa.cc */,
+				2455198E6132409481CD7F1F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tlimits.cc */,
+				E45D4EAF26634D748C41FE97 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tlist.cc */,
+				9A29E5DA8B774DC7ADA025CC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmap.cc */,
+				F683E0D38B6A4FC1A6479586 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmarkup.cc */,
+				564BFB78CF7141508B0EE0B9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tmem.cc */,
+				81540FCE2EBE4EF19F7CC80F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tofdatim.cc */,
+				9CD692CAAA37495E97FB36CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/toffile.cc */,
+				D3C74A00761F4764B6884D0E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tofstd.cc */,
+				EF439A29FED54ADDA0D3490B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/toption.cc */,
+				5CF893D1385940B6BE077C39 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tstack.cc */,
+				FC92294B49AA4C08859993EC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tstring.cc */,
+				053077213EB94E5C93E8F60E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tthread.cc */,
+				3B6055DC450A478D8E2A5E61 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/ttuple.cc */,
+				AA9F3B726EF749EAB94E7E49 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tuuid.cc */,
+				2C7530C347604A8C8A7128AB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tvariant.cc */,
+				D6DB350640EF46378A74AA16 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/tvec.cc */,
+				88D8DE2C2857452A9BAAA4D6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/tests/txml.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23B8C8ED2BCB49BEBA7EB1FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C248E8BBAF014EE7B5845012 /* ZERO_CHECK */;
+			targetProxy = B7B7DA56F9E04982987FADCA /* PBXContainerItemProxy */;
+		};
+		3A94906C8FB6483882EA6C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C248E8BBAF014EE7B5845012 /* ZERO_CHECK */;
+			targetProxy = 8E90A8E1429946CDAFA20630 /* PBXContainerItemProxy */;
+		};
+		4513A6FE14654D5FA1628037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E945B71DAFBD45588F46137B /* ALL_BUILD */;
+			targetProxy = E0F2E9E5EE504331B0537236 /* PBXContainerItemProxy */;
+		};
+		5CD2973D70DB4206B57A2ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C248E8BBAF014EE7B5845012 /* ZERO_CHECK */;
+			targetProxy = 21C6337E0D4040B387927A46 /* PBXContainerItemProxy */;
+		};
+		72A9EA2ED40149BB8256F56A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B862A0BDCBC94B69866A96C8 /* ofstd */;
+			targetProxy = 9A3CBF744F6943218208D48A /* PBXContainerItemProxy */;
+		};
+		A70816A0F39C445DA9D4DABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B862A0BDCBC94B69866A96C8 /* ofstd */;
+			targetProxy = 3E963FDF31444ADBA75C27E9 /* PBXContainerItemProxy */;
+		};
+		E6FB55BEFEDD4E658F3B1F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EAADB9868514CA2B928241B /* ofstd_tests */;
+			targetProxy = 05A1FDF53A3E4D5FAC03AF7B /* PBXContainerItemProxy */;
+		};
+		EB14E24E07044F6EA47EBAE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C248E8BBAF014EE7B5845012 /* ZERO_CHECK */;
+			targetProxy = 1FE3730E9FDB4E73908B4058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3678079023274E96AD40F351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "ofstd-test-exhaustive";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		5566A93AC53048EDBDF04B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9970776D9E4B446386FB35EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AB6AE4CAF85C41DA8F4DFA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd/build";
+			};
+			name = Release;
+		};
+		B37D1533F8684A29BC817E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BA339F30D2774E74988B848B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",ofstd_EXPORTS,USE_NULL_SAFE_OFSTRING,DCMTK_BUILD_IN_PROGRESS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/config/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/dcmdata/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/dcmnet/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/dcmiod/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ofstd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd/libsrc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E3819C58CE9442F8898088DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FB46E759C79C4B94B8A9017A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_NULL_SAFE_OFSTRING,DCMTK_BUILD_IN_PROGRESS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/config/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/dcmdata/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/dcmnet/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/dcmiod/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/lib/Release/libofstd.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ofstd_tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/ofstd/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FEC3E862486453D8DE7B8FB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9970776D9E4B446386FB35EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314E91177F7E4F4BBFBDE63B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5566A93AC53048EDBDF04B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49623F05F2BF4F4F9EBD5499 /* Build configuration list for PBXAggregateTarget "ofstd-test-exhaustive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3678079023274E96AD40F351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EA7E37CDD8746C7B5D1D6E1 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37D1533F8684A29BC817E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B485ED6B814CB8A73DAEEE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3819C58CE9442F8898088DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7673BE1A1130419AB3D4D19E /* Build configuration list for PBXNativeTarget "ofstd_tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB46E759C79C4B94B8A9017A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81253CAE797E4A029554B11A /* Build configuration list for PBXProject "ofstd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6AE4CAF85C41DA8F4DFA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B488F70ABCDF4BCABDA98F16 /* Build configuration list for PBXNativeTarget "ofstd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA339F30D2774E74988B848B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82A0EB417100435C870454EC /* Project object */;
+}

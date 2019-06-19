@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7746F632EC764DB0BFB163E6 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9575D0C829F942E0AE88D47C /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				CA52A7EC938C4EE49E8270C1 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		9F7E49AD9CD64F6E859A36FA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 06B25BD87BAA45F09531BE49 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				FFA66D19B4B24BEFA2C2B31F /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D8367FF3BCA2414EB7D83F53 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		C248E8BBAF014EE7B5845012 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D8638284C9884A86965A0E01 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2763E7841F0A46D6A662EB0A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E945B71DAFBD45588F46137B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 915F092D29B04C40A39605C7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				34B5F7B725FA4E268C7BA2AB /* CMake Rules */,
+			);
+			dependencies = (
+				4A0D690A11914F49B7F479BF /* PBXTargetDependency */,
+				2AFB0E7636A84037829D5F2B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0C31E3392CDB4865BC63717E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/sleep.cc */ = {isa = PBXBuildFile; fileRef = 46EE3C26268B479E9362DC72 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/sleep.cc */; };
+		0DE52BCF6B7B4854B745D097 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/lockfile.cc */ = {isa = PBXBuildFile; fileRef = 47BC0FDAB80B4FCD871AC6CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/lockfile.cc */; };
+		15881DA98EF04C7E90CC0F01 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/config.cc */ = {isa = PBXBuildFile; fileRef = EC9DD319ADE641C4B5BFE63A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/config.cc */; };
+		1AC5137B40D2421A8882B7C2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/apndimpl.cc */ = {isa = PBXBuildFile; fileRef = 38FA218416B2414BABDEEC8E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/apndimpl.cc */; };
+		26F7FB14E3E5472BBCA057CE /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/snprintf.cc */ = {isa = PBXBuildFile; fileRef = A9E3027317D54E5F9306D61F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/snprintf.cc */; };
+		2C9C1929491C45E0B69F72F1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/striconv.cc */ = {isa = PBXBuildFile; fileRef = 605E82BB930B429E89106714 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/striconv.cc */; };
+		2FFBCB4074EA4B9AA01D9320 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/objreg.cc */ = {isa = PBXBuildFile; fileRef = 33F79FB1725641A3888CA3E3 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/objreg.cc */; };
+		34D76752B25D40EC9D1F12B9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logevent.cc */ = {isa = PBXBuildFile; fileRef = BBA4E12D795947EB9E0477C8 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logevent.cc */; };
+		39ADEF4B81A1465BB0D55412 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/version.cc */ = {isa = PBXBuildFile; fileRef = B7B77E16C4D64BA2A7FF2A69 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/version.cc */; };
+		3BFDCDFAB88949E7916B0DC8 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/hierarchy.cc */ = {isa = PBXBuildFile; fileRef = AEBBB77FB7944B54B596A772 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/hierarchy.cc */; };
+		3D8A04A3FD264954A7B54D71 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/hierlock.cc */ = {isa = PBXBuildFile; fileRef = B3E2BA3FC3D44935BF84A77D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/hierlock.cc */; };
+		4330D4C2CA0B449989FFADE5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/patlay.cc */ = {isa = PBXBuildFile; fileRef = 7D11A37EAC1B400C99AB8714 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/patlay.cc */; };
+		463613BB30884EDEAD48DACC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/unixsock.cc */ = {isa = PBXBuildFile; fileRef = B05C9180A2B84BAEB97AF15C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/unixsock.cc */; };
+		4BA8E619CAF444F0BB396403 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/cygwin32.cc */ = {isa = PBXBuildFile; fileRef = 228649FCE0094302B9319BB5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/cygwin32.cc */; };
+		585A649518E94CDAAB9D7186 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/tls.cc */ = {isa = PBXBuildFile; fileRef = 54AB64BB2FBB4B82A7F6A3CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/tls.cc */; };
+		593A7A1240754F5DA359907D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/pointer.cc */ = {isa = PBXBuildFile; fileRef = A90A91D05D804A5D8700625C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/pointer.cc */; };
+		5C0A0B1ABD3B4748811C3FA2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/env.cc */ = {isa = PBXBuildFile; fileRef = 9D0C1D1371FA4B4F8604881C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/env.cc */; };
+		5F744D209BB14E8DA42FC640 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/ndc.cc */ = {isa = PBXBuildFile; fileRef = AFE2162CBF4849F2A459DE0F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/ndc.cc */; };
+		670B61EEB5084BB5BD97F955 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/socket.cc */ = {isa = PBXBuildFile; fileRef = 636976583F9949BB91BD7F3D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/socket.cc */; };
+		68F9D4F1AA614D15986928D6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/fileap.cc */ = {isa = PBXBuildFile; fileRef = 1955D009E9A64C098C757C63 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/fileap.cc */; };
+		6C8CD056E6BC4E5BA9D0F17D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/asyncap.cc */ = {isa = PBXBuildFile; fileRef = E54C995D4F9743E494B3288B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/asyncap.cc */; };
+		6E30ACD18DEE458DA124B632 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/timehelp.cc */ = {isa = PBXBuildFile; fileRef = 476B8749013446C8BCB15A54 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/timehelp.cc */; };
+		7150E4698A4244A4BA1E9054 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/sockbuff.cc */ = {isa = PBXBuildFile; fileRef = 3AAAADFE7948408EB5D7CF4E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/sockbuff.cc */; };
+		7284596CCC7F49FA9BE2FAB3 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/rootlog.cc */ = {isa = PBXBuildFile; fileRef = C52522CD3E3D46AFAD8D1A50 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/rootlog.cc */; };
+		7512D97D8F3847BF91440D7E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/factory.cc */ = {isa = PBXBuildFile; fileRef = 4B898557AA41427A9DB33F34 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/factory.cc */; };
+		76A15C0F51E34572B7DBE0C4 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logmacro.cc */ = {isa = PBXBuildFile; fileRef = 75EC73EBA5004C8795AE5451 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logmacro.cc */; };
+		85D2755E1CA34C45B13AE610 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/mdc.cc */ = {isa = PBXBuildFile; fileRef = A392359E50AF4D1A81E15DF5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/mdc.cc */; };
+		86ACDE52916E4222839054EF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/ntelogap.cc */ = {isa = PBXBuildFile; fileRef = 5F91D3B2979E43D499C2ACE2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/ntelogap.cc */; };
+		8A71E18A74E146098A4F6636 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/loglog.cc */ = {isa = PBXBuildFile; fileRef = E57E831C4CA84B6288B4F6D1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/loglog.cc */; };
+		8BF78EFFD9AA4FA0B44EEDFA /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9654C4527A65474591E422FC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/CMakeLists.txt */; };
+		93D833DD26EA4A1C9DF9994F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/socketap.cc */ = {isa = PBXBuildFile; fileRef = 7C3676FF8019439F9272AD46 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/socketap.cc */; };
+		99B11726B9E74C90B96576B4 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strcloc.cc */ = {isa = PBXBuildFile; fileRef = B625C12DE13B48E9A0C4DDED /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strcloc.cc */; };
+		9DA9A6CB065D4520A6A357EB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/clogger.cc */ = {isa = PBXBuildFile; fileRef = 788BF82EEC07408FB07531F2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/clogger.cc */; };
+		A5E76B7A32804EB487B02729 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strhelp.cc */ = {isa = PBXBuildFile; fileRef = B69CD9B069AC4A9284BF1F1E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strhelp.cc */; };
+		B03C105E15C94FF7B621C7DB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/log4judp.cc */ = {isa = PBXBuildFile; fileRef = 6FB27668E12C43CBAD27FC5C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/log4judp.cc */; };
+		B26644E30CB148E4981C9367 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/loglevel.cc */ = {isa = PBXBuildFile; fileRef = 905217819D9342558B0FB15D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/loglevel.cc */; };
+		B349BD4AC9C34B289A5B2DE3 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/consap.cc */ = {isa = PBXBuildFile; fileRef = 012F6CE9AC8A4D469119C46E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/consap.cc */; };
+		BD071C432D9C47D1852D7734 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/syslogap.cc */ = {isa = PBXBuildFile; fileRef = 53FECE4B7E0F40EDB3A9E1F1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/syslogap.cc */; };
+		BF6500191F34404CB8F7BC24 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/fileinfo.cc */ = {isa = PBXBuildFile; fileRef = F266DD751A5B47C2BDF405F8 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/fileinfo.cc */; };
+		BFACEA1D7A754104868A9898 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/syncprims.cc */ = {isa = PBXBuildFile; fileRef = 2F7950BBA5164E7D8EEA2C7F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/syncprims.cc */; };
+		CA827138E0F84806B25A47E9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logger.cc */ = {isa = PBXBuildFile; fileRef = A9E416751E604E72B8D6B27A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logger.cc */; };
+		D258B24B6C2E4CF195AED77B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/oflog.cc */ = {isa = PBXBuildFile; fileRef = B6BA9DF2CB3648C0A87BB079 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/oflog.cc */; };
+		DD741276BF1B41BBA852957C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logimpl.cc */ = {isa = PBXBuildFile; fileRef = 4B6737494CCE4755A91AAD58 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logimpl.cc */; };
+		DE58C49DF65547EB9DF8EBB7 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/property.cc */ = {isa = PBXBuildFile; fileRef = A77A2E30ECA24C3096BBAEFE /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/property.cc */; };
+		E1163A9BBEFF429ABB542AD6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strccloc.cc */ = {isa = PBXBuildFile; fileRef = B35DF88BB2CD4140B1C24A9D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strccloc.cc */; };
+		E5A90C07AF24488594E3DD4F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/appender.cc */ = {isa = PBXBuildFile; fileRef = A1638F7FFAC04D78995A393A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/appender.cc */; };
+		E883361A2DF54C76BBDB476E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/lloguser.cc */ = {isa = PBXBuildFile; fileRef = D267DEFD2FAF45589E38E387 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/lloguser.cc */; };
+		EAADC35CA9C64170B8B67030 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/nullap.cc */ = {isa = PBXBuildFile; fileRef = 97082B9E5F3B43FE8B6A3254 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/nullap.cc */; };
+		F28E2DA6F0DD450FABF539A5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/filter.cc */ = {isa = PBXBuildFile; fileRef = 902C03A401E44C8BAE9E1DF6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/filter.cc */; };
+		F2E2B954702B4E5EA63448FD /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/threads.cc */ = {isa = PBXBuildFile; fileRef = 44362999AFED463F9F264393 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/threads.cc */; };
+		F7E04DA3B3AA4A79A7B7C253 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/globinit.cc */ = {isa = PBXBuildFile; fileRef = CE5BD79C1B4344218450E4A9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/globinit.cc */; };
+		FC5A1FAAC7E74E09995EE58F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/queue.cc */ = {isa = PBXBuildFile; fileRef = FED0A8A35EF2448DA2838337 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/queue.cc */; };
+		FE958FA301574C2599C0FA38 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/layout.cc */ = {isa = PBXBuildFile; fileRef = C6CCB69A35F34A73B296DEE5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/layout.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		35399224B1984E9099991FEA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		5F711761C6084047A86C5B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90193237F45C42A98C858DAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C248E8BBAF014EE7B5845012;
+			remoteInfo = ZERO_CHECK;
+		};
+		99F3C919FE704E90ABA4ABAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90193237F45C42A98C858DAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E945B71DAFBD45588F46137B;
+			remoteInfo = ALL_BUILD;
+		};
+		BDCF403199B04CCE87FFA550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90193237F45C42A98C858DAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C011782B2D3049CDBBA9456C;
+			remoteInfo = oflog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012F6CE9AC8A4D469119C46E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/consap.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = consap.cc; path = libsrc/consap.cc; sourceTree = SOURCE_ROOT; };
+		09A535A59B954DD09BCB9273 /* oflog */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liboflog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1955D009E9A64C098C757C63 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/fileap.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fileap.cc; path = libsrc/fileap.cc; sourceTree = SOURCE_ROOT; };
+		228649FCE0094302B9319BB5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/cygwin32.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cygwin32.cc; path = libsrc/cygwin32.cc; sourceTree = SOURCE_ROOT; };
+		2DA72191046443C99E72C38D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2F7950BBA5164E7D8EEA2C7F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/syncprims.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = syncprims.cc; path = libsrc/syncprims.cc; sourceTree = SOURCE_ROOT; };
+		33F79FB1725641A3888CA3E3 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/objreg.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = objreg.cc; path = libsrc/objreg.cc; sourceTree = SOURCE_ROOT; };
+		38FA218416B2414BABDEEC8E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/apndimpl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = apndimpl.cc; path = libsrc/apndimpl.cc; sourceTree = SOURCE_ROOT; };
+		3AAAADFE7948408EB5D7CF4E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/sockbuff.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sockbuff.cc; path = libsrc/sockbuff.cc; sourceTree = SOURCE_ROOT; };
+		44362999AFED463F9F264393 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/threads.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threads.cc; path = libsrc/threads.cc; sourceTree = SOURCE_ROOT; };
+		46EE3C26268B479E9362DC72 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/sleep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sleep.cc; path = libsrc/sleep.cc; sourceTree = SOURCE_ROOT; };
+		476B8749013446C8BCB15A54 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/timehelp.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timehelp.cc; path = libsrc/timehelp.cc; sourceTree = SOURCE_ROOT; };
+		47BC0FDAB80B4FCD871AC6CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/lockfile.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lockfile.cc; path = libsrc/lockfile.cc; sourceTree = SOURCE_ROOT; };
+		4B6737494CCE4755A91AAD58 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logimpl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logimpl.cc; path = libsrc/logimpl.cc; sourceTree = SOURCE_ROOT; };
+		4B898557AA41427A9DB33F34 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/factory.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cc; path = libsrc/factory.cc; sourceTree = SOURCE_ROOT; };
+		53FECE4B7E0F40EDB3A9E1F1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/syslogap.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = syslogap.cc; path = libsrc/syslogap.cc; sourceTree = SOURCE_ROOT; };
+		54AB64BB2FBB4B82A7F6A3CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/tls.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tls.cc; path = libsrc/tls.cc; sourceTree = SOURCE_ROOT; };
+		5F91D3B2979E43D499C2ACE2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/ntelogap.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ntelogap.cc; path = libsrc/ntelogap.cc; sourceTree = SOURCE_ROOT; };
+		605E82BB930B429E89106714 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/striconv.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = striconv.cc; path = libsrc/striconv.cc; sourceTree = SOURCE_ROOT; };
+		636976583F9949BB91BD7F3D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/socket.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = socket.cc; path = libsrc/socket.cc; sourceTree = SOURCE_ROOT; };
+		6FB27668E12C43CBAD27FC5C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/log4judp.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = log4judp.cc; path = libsrc/log4judp.cc; sourceTree = SOURCE_ROOT; };
+		75EC73EBA5004C8795AE5451 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logmacro.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logmacro.cc; path = libsrc/logmacro.cc; sourceTree = SOURCE_ROOT; };
+		788BF82EEC07408FB07531F2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/clogger.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clogger.cc; path = libsrc/clogger.cc; sourceTree = SOURCE_ROOT; };
+		7C3676FF8019439F9272AD46 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/socketap.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = socketap.cc; path = libsrc/socketap.cc; sourceTree = SOURCE_ROOT; };
+		7D11A37EAC1B400C99AB8714 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/patlay.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = patlay.cc; path = libsrc/patlay.cc; sourceTree = SOURCE_ROOT; };
+		902C03A401E44C8BAE9E1DF6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/filter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filter.cc; path = libsrc/filter.cc; sourceTree = SOURCE_ROOT; };
+		905217819D9342558B0FB15D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/loglevel.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = loglevel.cc; path = libsrc/loglevel.cc; sourceTree = SOURCE_ROOT; };
+		9654C4527A65474591E422FC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = libsrc/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		97082B9E5F3B43FE8B6A3254 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/nullap.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nullap.cc; path = libsrc/nullap.cc; sourceTree = SOURCE_ROOT; };
+		9D0C1D1371FA4B4F8604881C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/env.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = env.cc; path = libsrc/env.cc; sourceTree = SOURCE_ROOT; };
+		A1638F7FFAC04D78995A393A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/appender.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = appender.cc; path = libsrc/appender.cc; sourceTree = SOURCE_ROOT; };
+		A392359E50AF4D1A81E15DF5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/mdc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdc.cc; path = libsrc/mdc.cc; sourceTree = SOURCE_ROOT; };
+		A77A2E30ECA24C3096BBAEFE /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/property.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = property.cc; path = libsrc/property.cc; sourceTree = SOURCE_ROOT; };
+		A90A91D05D804A5D8700625C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/pointer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pointer.cc; path = libsrc/pointer.cc; sourceTree = SOURCE_ROOT; };
+		A9E3027317D54E5F9306D61F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/snprintf.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = snprintf.cc; path = libsrc/snprintf.cc; sourceTree = SOURCE_ROOT; };
+		A9E416751E604E72B8D6B27A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logger.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logger.cc; path = libsrc/logger.cc; sourceTree = SOURCE_ROOT; };
+		AEBBB77FB7944B54B596A772 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/hierarchy.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hierarchy.cc; path = libsrc/hierarchy.cc; sourceTree = SOURCE_ROOT; };
+		AFE2162CBF4849F2A459DE0F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/ndc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ndc.cc; path = libsrc/ndc.cc; sourceTree = SOURCE_ROOT; };
+		B05C9180A2B84BAEB97AF15C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/unixsock.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unixsock.cc; path = libsrc/unixsock.cc; sourceTree = SOURCE_ROOT; };
+		B35DF88BB2CD4140B1C24A9D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strccloc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strccloc.cc; path = libsrc/strccloc.cc; sourceTree = SOURCE_ROOT; };
+		B3E2BA3FC3D44935BF84A77D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/hierlock.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hierlock.cc; path = libsrc/hierlock.cc; sourceTree = SOURCE_ROOT; };
+		B625C12DE13B48E9A0C4DDED /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strcloc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strcloc.cc; path = libsrc/strcloc.cc; sourceTree = SOURCE_ROOT; };
+		B69CD9B069AC4A9284BF1F1E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strhelp.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strhelp.cc; path = libsrc/strhelp.cc; sourceTree = SOURCE_ROOT; };
+		B6BA9DF2CB3648C0A87BB079 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/oflog.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = oflog.cc; path = libsrc/oflog.cc; sourceTree = SOURCE_ROOT; };
+		B7B77E16C4D64BA2A7FF2A69 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/version.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = version.cc; path = libsrc/version.cc; sourceTree = SOURCE_ROOT; };
+		BBA4E12D795947EB9E0477C8 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logevent.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logevent.cc; path = libsrc/logevent.cc; sourceTree = SOURCE_ROOT; };
+		C52522CD3E3D46AFAD8D1A50 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/rootlog.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rootlog.cc; path = libsrc/rootlog.cc; sourceTree = SOURCE_ROOT; };
+		C6CCB69A35F34A73B296DEE5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/layout.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = layout.cc; path = libsrc/layout.cc; sourceTree = SOURCE_ROOT; };
+		CE5BD79C1B4344218450E4A9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/globinit.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = globinit.cc; path = libsrc/globinit.cc; sourceTree = SOURCE_ROOT; };
+		D267DEFD2FAF45589E38E387 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/lloguser.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lloguser.cc; path = libsrc/lloguser.cc; sourceTree = SOURCE_ROOT; };
+		E54C995D4F9743E494B3288B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/asyncap.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = asyncap.cc; path = libsrc/asyncap.cc; sourceTree = SOURCE_ROOT; };
+		E57E831C4CA84B6288B4F6D1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/loglog.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = loglog.cc; path = libsrc/loglog.cc; sourceTree = SOURCE_ROOT; };
+		EC9DD319ADE641C4B5BFE63A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/config.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = config.cc; path = libsrc/config.cc; sourceTree = SOURCE_ROOT; };
+		F266DD751A5B47C2BDF405F8 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/fileinfo.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fileinfo.cc; path = libsrc/fileinfo.cc; sourceTree = SOURCE_ROOT; };
+		FED0A8A35EF2448DA2838337 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/queue.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = queue.cc; path = libsrc/queue.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4734D2754E0441D7B342CABB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				38FA218416B2414BABDEEC8E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/apndimpl.cc */,
+				A1638F7FFAC04D78995A393A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/appender.cc */,
+				E54C995D4F9743E494B3288B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/asyncap.cc */,
+				788BF82EEC07408FB07531F2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/clogger.cc */,
+				EC9DD319ADE641C4B5BFE63A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/config.cc */,
+				012F6CE9AC8A4D469119C46E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/consap.cc */,
+				228649FCE0094302B9319BB5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/cygwin32.cc */,
+				9D0C1D1371FA4B4F8604881C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/env.cc */,
+				4B898557AA41427A9DB33F34 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/factory.cc */,
+				1955D009E9A64C098C757C63 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/fileap.cc */,
+				F266DD751A5B47C2BDF405F8 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/fileinfo.cc */,
+				902C03A401E44C8BAE9E1DF6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/filter.cc */,
+				CE5BD79C1B4344218450E4A9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/globinit.cc */,
+				AEBBB77FB7944B54B596A772 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/hierarchy.cc */,
+				B3E2BA3FC3D44935BF84A77D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/hierlock.cc */,
+				C6CCB69A35F34A73B296DEE5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/layout.cc */,
+				D267DEFD2FAF45589E38E387 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/lloguser.cc */,
+				47BC0FDAB80B4FCD871AC6CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/lockfile.cc */,
+				6FB27668E12C43CBAD27FC5C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/log4judp.cc */,
+				BBA4E12D795947EB9E0477C8 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logevent.cc */,
+				A9E416751E604E72B8D6B27A /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logger.cc */,
+				4B6737494CCE4755A91AAD58 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logimpl.cc */,
+				905217819D9342558B0FB15D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/loglevel.cc */,
+				E57E831C4CA84B6288B4F6D1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/loglog.cc */,
+				75EC73EBA5004C8795AE5451 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logmacro.cc */,
+				A392359E50AF4D1A81E15DF5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/mdc.cc */,
+				AFE2162CBF4849F2A459DE0F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/ndc.cc */,
+				5F91D3B2979E43D499C2ACE2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/ntelogap.cc */,
+				97082B9E5F3B43FE8B6A3254 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/nullap.cc */,
+				33F79FB1725641A3888CA3E3 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/objreg.cc */,
+				B6BA9DF2CB3648C0A87BB079 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/oflog.cc */,
+				7D11A37EAC1B400C99AB8714 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/patlay.cc */,
+				A90A91D05D804A5D8700625C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/pointer.cc */,
+				A77A2E30ECA24C3096BBAEFE /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/property.cc */,
+				FED0A8A35EF2448DA2838337 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/queue.cc */,
+				C52522CD3E3D46AFAD8D1A50 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/rootlog.cc */,
+				46EE3C26268B479E9362DC72 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/sleep.cc */,
+				A9E3027317D54E5F9306D61F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/snprintf.cc */,
+				3AAAADFE7948408EB5D7CF4E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/sockbuff.cc */,
+				636976583F9949BB91BD7F3D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/socket.cc */,
+				7C3676FF8019439F9272AD46 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/socketap.cc */,
+				B35DF88BB2CD4140B1C24A9D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strccloc.cc */,
+				B625C12DE13B48E9A0C4DDED /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strcloc.cc */,
+				B69CD9B069AC4A9284BF1F1E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strhelp.cc */,
+				605E82BB930B429E89106714 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/striconv.cc */,
+				2F7950BBA5164E7D8EEA2C7F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/syncprims.cc */,
+				53FECE4B7E0F40EDB3A9E1F1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/syslogap.cc */,
+				44362999AFED463F9F264393 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/threads.cc */,
+				476B8749013446C8BCB15A54 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/timehelp.cc */,
+				54AB64BB2FBB4B82A7F6A3CF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/tls.cc */,
+				B05C9180A2B84BAEB97AF15C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/unixsock.cc */,
+				B7B77E16C4D64BA2A7FF2A69 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/version.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		58107666BEE14EE6B16AFDA4 = {
+			isa = PBXGroup;
+			children = (
+				C26FBC6B236F43889802E359 /* ALL_BUILD */,
+				8C190EE5BA0A4EF8A9F57623 /* oflog */,
+				B5F3732B0F464CDBB3EEDFDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68D4DC68C1E04D6B958FEDA6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8C190EE5BA0A4EF8A9F57623 /* oflog */ = {
+			isa = PBXGroup;
+			children = (
+				4734D2754E0441D7B342CABB /* Source Files */,
+				9654C4527A65474591E422FC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/CMakeLists.txt */,
+			);
+			name = oflog;
+			sourceTree = "<group>";
+		};
+		B5F3732B0F464CDBB3EEDFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09A535A59B954DD09BCB9273 /* oflog */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26FBC6B236F43889802E359 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				68D4DC68C1E04D6B958FEDA6 /* CMake Rules */,
+				2DA72191046443C99E72C38D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C011782B2D3049CDBBA9456C /* oflog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1207FAF482F45AE95E746CF /* Build configuration list for PBXNativeTarget "oflog" */;
+			buildPhases = (
+				E9D7DC9CECEB4C4CBBF23D41 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oflog;
+			productName = oflog;
+			productReference = 09A535A59B954DD09BCB9273 /* oflog */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90193237F45C42A98C858DAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 87087637C6244654BFCA19B9 /* Build configuration list for PBXProject "oflog" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				35399224B1984E9099991FEA /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 58107666BEE14EE6B16AFDA4;
+			projectDirPath = ../../oflog;
+			projectRoot = "";
+			targets = (
+				E945B71DAFBD45588F46137B /* ALL_BUILD */,
+				7746F632EC764DB0BFB163E6 /* RUN_TESTS */,
+				C248E8BBAF014EE7B5845012 /* ZERO_CHECK */,
+				9F7E49AD9CD64F6E859A36FA /* install */,
+				C011782B2D3049CDBBA9456C /* oflog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2763E7841F0A46D6A662EB0A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog -f /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		34B5F7B725FA4E268C7BA2AB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog -f /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		3AEDC366E6054FCEAAD1F051 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		60E0637A239249CFA3A3F829 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A81DD109657541EBB6945B41 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CA52A7EC938C4EE49E8270C1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog -f /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D2C564F5E67A41DABA0FDB8F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FFA66D19B4B24BEFA2C2B31F /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog -f /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D7DC9CECEB4C4CBBF23D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC5137B40D2421A8882B7C2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/apndimpl.cc */,
+				E5A90C07AF24488594E3DD4F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/appender.cc */,
+				6C8CD056E6BC4E5BA9D0F17D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/asyncap.cc */,
+				9DA9A6CB065D4520A6A357EB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/clogger.cc */,
+				15881DA98EF04C7E90CC0F01 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/config.cc */,
+				B349BD4AC9C34B289A5B2DE3 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/consap.cc */,
+				4BA8E619CAF444F0BB396403 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/cygwin32.cc */,
+				5C0A0B1ABD3B4748811C3FA2 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/env.cc */,
+				7512D97D8F3847BF91440D7E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/factory.cc */,
+				68F9D4F1AA614D15986928D6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/fileap.cc */,
+				BF6500191F34404CB8F7BC24 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/fileinfo.cc */,
+				F28E2DA6F0DD450FABF539A5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/filter.cc */,
+				F7E04DA3B3AA4A79A7B7C253 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/globinit.cc */,
+				3BFDCDFAB88949E7916B0DC8 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/hierarchy.cc */,
+				3D8A04A3FD264954A7B54D71 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/hierlock.cc */,
+				FE958FA301574C2599C0FA38 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/layout.cc */,
+				E883361A2DF54C76BBDB476E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/lloguser.cc */,
+				0DE52BCF6B7B4854B745D097 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/lockfile.cc */,
+				B03C105E15C94FF7B621C7DB /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/log4judp.cc */,
+				34D76752B25D40EC9D1F12B9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logevent.cc */,
+				CA827138E0F84806B25A47E9 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logger.cc */,
+				DD741276BF1B41BBA852957C /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logimpl.cc */,
+				B26644E30CB148E4981C9367 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/loglevel.cc */,
+				8A71E18A74E146098A4F6636 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/loglog.cc */,
+				76A15C0F51E34572B7DBE0C4 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/logmacro.cc */,
+				85D2755E1CA34C45B13AE610 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/mdc.cc */,
+				5F744D209BB14E8DA42FC640 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/ndc.cc */,
+				86ACDE52916E4222839054EF /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/ntelogap.cc */,
+				EAADC35CA9C64170B8B67030 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/nullap.cc */,
+				2FFBCB4074EA4B9AA01D9320 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/objreg.cc */,
+				D258B24B6C2E4CF195AED77B /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/oflog.cc */,
+				4330D4C2CA0B449989FFADE5 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/patlay.cc */,
+				593A7A1240754F5DA359907D /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/pointer.cc */,
+				DE58C49DF65547EB9DF8EBB7 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/property.cc */,
+				FC5A1FAAC7E74E09995EE58F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/queue.cc */,
+				7284596CCC7F49FA9BE2FAB3 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/rootlog.cc */,
+				0C31E3392CDB4865BC63717E /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/sleep.cc */,
+				26F7FB14E3E5472BBCA057CE /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/snprintf.cc */,
+				7150E4698A4244A4BA1E9054 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/sockbuff.cc */,
+				670B61EEB5084BB5BD97F955 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/socket.cc */,
+				93D833DD26EA4A1C9DF9994F /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/socketap.cc */,
+				E1163A9BBEFF429ABB542AD6 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strccloc.cc */,
+				99B11726B9E74C90B96576B4 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strcloc.cc */,
+				A5E76B7A32804EB487B02729 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/strhelp.cc */,
+				2C9C1929491C45E0B69F72F1 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/striconv.cc */,
+				BFACEA1D7A754104868A9898 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/syncprims.cc */,
+				BD071C432D9C47D1852D7734 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/syslogap.cc */,
+				F2E2B954702B4E5EA63448FD /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/threads.cc */,
+				6E30ACD18DEE458DA124B632 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/timehelp.cc */,
+				585A649518E94CDAAB9D7186 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/tls.cc */,
+				463613BB30884EDEAD48DACC /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/unixsock.cc */,
+				39ADEF4B81A1465BB0D55412 /* /Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/libsrc/version.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AFB0E7636A84037829D5F2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C248E8BBAF014EE7B5845012 /* ZERO_CHECK */;
+			targetProxy = 5F711761C6084047A86C5B63 /* PBXContainerItemProxy */;
+		};
+		4A0D690A11914F49B7F479BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C011782B2D3049CDBBA9456C /* oflog */;
+			targetProxy = BDCF403199B04CCE87FFA550 /* PBXContainerItemProxy */;
+		};
+		D8367FF3BCA2414EB7D83F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E945B71DAFBD45588F46137B /* ALL_BUILD */;
+			targetProxy = 99F3C919FE704E90ABA4ABAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FD7C9D325564574842C2EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1A926858E3C04127907E3992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		28AE45EBE59243E1A049090A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		63EC8CC0847A436FBADB6C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BBC85F8CF35C4ECF8ED988EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",oflog_EXPORTS,USE_NULL_SAFE_OFSTRING,DCMTK_BUILD_IN_PROGRESS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/config/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/ofstd/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/oflog/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/dcmdata/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/dcmnet/include","/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/dcmiod/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = oflog;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog/libsrc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EBD6079E121A422A9F3FFC12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mrq/Desktop/works/dcmtk/dcmtk-3.6.4/xcode/oflog/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06B25BD87BAA45F09531BE49 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A926858E3C04127907E3992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87087637C6244654BFCA19B9 /* Build configuration list for PBXProject "oflog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD6079E121A422A9F3FFC12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		915F092D29B04C40A39605C7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EC8CC0847A436FBADB6C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9575D0C829F942E0AE88D47C /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AE45EBE59243E1A049090A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8638284C9884A86965A0E01 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FD7C9D325564574842C2EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1207FAF482F45AE95E746CF /* Build configuration list for PBXNativeTarget "oflog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC85F8CF35C4ECF8ED988EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90193237F45C42A98C858DAD /* Project object */;
+}
